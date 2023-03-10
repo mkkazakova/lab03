@@ -6,7 +6,7 @@
 $ sudo apt install git
 ```
 
-Устанвливаем имя пользователя и email
+Устанавливаем имя пользователя и email
 
 ```
 $ git config --global user.name "Masha"
