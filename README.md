@@ -13,7 +13,7 @@ $ git config --global user.name "Masha"
 $ git config --global user.email "mkkazakova@yandex.ru"
 ```
 
-Создаём директорию. Затем миняем директорию.
+Создаём директорию. Затем меняем директорию.
 
 $ mkdir lab-03
 $ cd ~/lab-03
