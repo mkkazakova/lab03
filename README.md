@@ -156,7 +156,7 @@ target_link_libraries(formatter_ex formatter)
 
 >target_include_directories(formatter_ex PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}) связывает библиотеку formatter_ex и CMAKE_CURRENT_SOURCE_DIR
 
->target_link_libraries(formatter_ex formatter) добавление библиотеки formatter
+>target_link_libraries(formatter_ex formatter) соединение библиотек formatter_ex и formatter
 
 Добавляем файлы formatter_ex.cpp и formatter_ex.h в папку "formatter_ex_lib" 
 
@@ -224,7 +224,7 @@ target_link_libraries(example formatter_ex)
 
 >add_executable(example hello_world.cpp) добавляет исполняемый файл example (то, что ожидается от компиляции файла "hello_world.cpp")
 
->target_link_libraries(example formatter_ex) добавление библиотеки formatter_ex
+>target_link_libraries(example formatter_ex) соединение example с библиотекой formatter_ex
 
 Добавляем файл hello_world.cpp в папку "hello_world_application" 
 
@@ -390,7 +390,7 @@ target_link_libraries(example solver_lib formatter_ex)
 
 >add_executable(example equation.cpp) добавляет исполняемый файл example (то, что ожидается от компиляции файла "equation.cpp")
 
->target_link_libraries(example solver_lib formatter_ex) добавление библиотеки formatter_ex
+>target_link_libraries(example solver_lib formatter_ex) соединение example, solver_lib, formatter_ex
 
 Добавляем файл equation.cpp в папку "solver_application"
 
