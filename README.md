@@ -95,7 +95,7 @@ $ wget https://raw.githubusercontent.com/tp-labs/lab03/master/formatter_lib/form
 $ sudo apt install cmake
 ```
 
-Проверяем работоспособность:
+Проверяем на наличие ошибок:
 
 ```
 $ cmake -H. -B_build
@@ -165,7 +165,7 @@ wget https://raw.githubusercontent.com/tp-labs/lab03/master/formatter_ex_lib/for
 wget https://raw.githubusercontent.com/tp-labs/lab03/master/formatter_ex_lib/formatter_ex.h
 ```
 
-Проверяем работоспособность:
+Проверяем  на наличие ошибок:
 
 ```
 $ cmake -H. -B_build
@@ -232,7 +232,7 @@ target_link_libraries(example formatter_ex)
 wget https://raw.githubusercontent.com/tp-labs/lab03/master/hello_world_application/hello_world.cpp
 ```
 
-Проверяем работоспособность:
+Проверяем  на наличие ошибок:
 
 ```
 $ cmake -H. -B_build
@@ -331,7 +331,7 @@ void solve(float a, float b, float c, float& x1, float& x2)
 }
 ```
 
-Снова проверяем на работоспособность:
+Снова проверяем  на наличие ошибок:
 
 ```
 $ cmake -H. -B_build
@@ -398,7 +398,7 @@ target_link_libraries(example solver_lib formatter_ex)
 wget https://raw.githubusercontent.com/tp-labs/lab03/master/solver_application/equation.cpp
 ```
 
-Проверяем работоспособность:
+Проверяем  на наличие ошибок:
 
 ```
 $ cmake -H. -B_build
